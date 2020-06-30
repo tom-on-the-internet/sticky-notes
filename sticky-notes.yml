@@ -1,0 +1,35 @@
+env:
+  STICKY_NOTE: yes
+window:
+ dimensions:
+   columns: 15
+   lines: 5
+ padding:
+   x: 20
+   y: 20
+ class:
+   instance: sticky-note
+   general: sticky-note
+
+shell:
+  program: /bin/zsh
+
+scrolling:
+ history: 0
+
+font:
+ normal:
+   family: Permanent Marker
+ size: 16
+
+colors:
+ primary:
+   background: '#ffff88'
+   foreground: '#222222'
+ cursor:
+   text: '#ffff88'
+   cursor: '#ffff88'
+ selection:
+   text: '#ffff88'
+   background: '#ffff88'
+
